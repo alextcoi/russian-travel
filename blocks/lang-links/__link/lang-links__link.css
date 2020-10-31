@@ -1,0 +1,25 @@
+.lang-links__link {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+
+    text-decoration: none;
+    text-align: right;
+
+    margin-right: 18px;/*внимание*/
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+@media screen and (max-width: 320px) {
+    .lang-links__link {
+        font-size: 18px;
+        line-height: 20px;
+    }
+}
+
+.lang-links__link:last-of-type {
+    margin: 0;
+}

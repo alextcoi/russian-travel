@@ -1,0 +1,33 @@
+.lead__image {
+    width: 76.875vw;
+    height: 76.875vw / 1.6;
+
+    margin-top: 64px;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        width: 90.625vw;
+        height: 90.625vw / 1.6;
+
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .lead__image {
+        width: 100vw;
+        height: 100vw / 1.6;
+
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .lead__image {
+        width: 100vw;
+        height: 100vw / 1.6;
+
+        margin-top: 40px;
+    }
+}
