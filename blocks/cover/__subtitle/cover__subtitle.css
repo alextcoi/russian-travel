@@ -1,6 +1,6 @@
 .cover__subtitle {
     width: 360px;
-    margin: 32px 0 0 0;
+    margin: 32px auto 0 auto;
     
     font-family: Inter;
     font-style: normal;
@@ -17,7 +17,7 @@
         width: calc(100vw * .9);
         height: calc(100vw * .15);
         font-size: 14px;
-        line-height:16px;
-        margin: 16px 0 0 0;
+        line-height: 16px;
+        margin: 16px auto 0 auto;
     }
 }
