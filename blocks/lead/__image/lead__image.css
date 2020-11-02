@@ -1,7 +1,7 @@
 .lead__image {
     width: 76.875vw;
     height: 76.875vw / 1.6;
-
+    max-width: 984px;
     margin-top: 64px;
 }
 

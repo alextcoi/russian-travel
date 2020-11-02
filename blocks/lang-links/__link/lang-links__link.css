@@ -1,5 +1,5 @@
 .lang-links__link {
-    font-family: Inter;
+    font-family: "Inter", "Arial", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 24px;
@@ -8,8 +8,9 @@
     text-decoration: none;
     text-align: right;
 
-    margin-right: 18px;/*внимание*/
+    margin: 0 0 0 18px;
     color: #FFFFFF;
+    transition: opacity .5s ease-out;
     opacity: 1;
 }
 
@@ -20,6 +21,6 @@
     }
 }
 
-.lang-links__link:last-of-type {
-    margin: 0;
+.lang-links__link:hover {
+    opacity: .7;
 }

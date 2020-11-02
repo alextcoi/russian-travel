@@ -21,5 +21,7 @@
     .place__image {
         height: calc(100vw * .359375);
         width: calc(100vw * .359375);
+        max-width: 460px;
+        max-height: 460px;
     }
 }

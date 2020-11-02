@@ -1,4 +1,5 @@
 .photo-grid__item {
+    object-fit: cover;
     width: 288px;
     height: 216px;
 }
@@ -20,6 +21,8 @@
 @media screen and (min-width: 1025px) {
     .photo-grid__item {
         width: calc(100vw * .221875);
+        max-width: 284px;
         height: calc(100vw * .221875 * .75);
+        max-height: 213px;
     }
 }

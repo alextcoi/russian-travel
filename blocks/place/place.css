@@ -28,7 +28,7 @@
 @media screen and (min-width: 1280px) {
     .place {
         width: 76.875%;
-        grid-template-columns: calc(100vw * .359375) calc(100vw * (.76875 - .359375) - 40px);
+        grid-template-columns: min-content max-content;
         column-gap: 40px;
     }
 }
