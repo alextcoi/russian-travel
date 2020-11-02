@@ -7,7 +7,7 @@
     row-gap: 32px;
 }
 
-@media screen and (min-width: 620px) {
+@media screen and (min-width: 768px) {
     .place {
         width: 93.75%;
         grid-template-rows: repeat(2, max-content);
