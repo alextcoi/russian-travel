@@ -4,13 +4,20 @@
     align-items: center;
     justify-content: center;
     width: 100%;
-    max-width: 1184px;
-    height: calc(100vw * .925 * .625);
-    max-height: 740px;
+    min-height: calc(100vw * .925 * .625);
     text-decoration: none;
     background-image: url(../../../images/cover-trains.jpg);
     background-size: cover;
     position: relative;
+}
+
+@media screen and (min-width: 1281px) {
+    .cover__heading  {
+        min-height: 740px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
 }
 
 .cover__heading:before {

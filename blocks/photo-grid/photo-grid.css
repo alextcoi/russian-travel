@@ -14,7 +14,7 @@
     }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 935px) {
     .photo-grid {
         grid-template-columns: repeat(3, min-content);
         grid-template-rows: repeat(4, min-content);

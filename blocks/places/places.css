@@ -19,9 +19,3 @@
         margin: 92px auto 0 auto;
     }
 }
-
-@media screen and (min-width: 1279px) {
-    .places {
-        margin: 92px auto 0 auto;
-    }
-}

@@ -1,14 +1,12 @@
 .cover {
-    width: calc(100vw * .925);
     margin: 92px auto 0 auto;
+    width: calc(100vw * .925);
     max-width: 1184px;
-    max-height: 740px;
 }
 
 @media screen and (max-width: 1024px) {
     .cover {
         width: 100vw;
-        height: calc(100vw * .625);
         margin: 92px 0 0 0;
     }
 }
